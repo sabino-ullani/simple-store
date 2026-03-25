@@ -1,1 +1,39 @@
-*.sqlite*
+# Laravel core
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# Composer & NPM lock (optional — keep if you want reproducible builds)
+# composer.lock
+# package-lock.json
+# yarn.lock
+
+# Logs & cache
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/bootstrap/cache/*.php
+
+# IDE / Editor files
+/.idea
+/.vscode
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+/phpunit.result.cache
+
+# Misc
+npm-debug.log
+yarn-error.log
