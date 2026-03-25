@@ -1,3 +1,14 @@
+# Environment file contains passwords and API keys
+.env
+# Vendor folder composer packages (too large to commit)
+/vendor
+# Node modules npm packages (too large to commit)
+/node_modules
+# Compiled files
+/public/build
+# Storage
+/storage/*.key
+
 # Laravel core
 /vendor
 /node_modules
